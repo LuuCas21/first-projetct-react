@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Goblin+One&family=Nunito:wght@200&family=Poppins:wght@300&family=Righteous&family=Roboto+Slab&family=Rubik:wght@300&family=Sarala&display=swap');
+
+body {
+  font-family:'Nunito', sans-serif;
+  box-sizing:border-box;
+  background-color:rgb(133, 133, 133);
+}
+
+.header {
+  width:100%;
+  height:auto;
+  display:flex;
+  margin-bottom:20px;
+}
+
+.header_div_empty {
+  width:25%;
+  height:auto;
+}
+
+.header_title {
+  width:50%;
+  height:auto;
+}
+
+.header_button {
+  width:25%;
+  height:auto;
+  display:flex;
+  justify-content:center;
+}
+
+.background_2 {
+  background-color:rgba(0,0,0,0.65);
+}
+
+.title {
+  font-size:30px;
+  text-align:center;
+  letter-spacing:4px;
+  border:3px solid rgba(0,0,0,0.65);
+  border-radius:20px;
+  padding:4px;
+}
+
+.fa-lightbulb-o {
+  width:auto;
+  height:auto;
+  background-color:inherit;
+  font-size:30px;
+  border:none;
+  color:rgba(0,0,0,0.65);
+  cursor:pointer;
+}
